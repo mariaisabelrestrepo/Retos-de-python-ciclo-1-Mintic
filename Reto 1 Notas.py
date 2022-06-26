@@ -18,7 +18,7 @@ while True:
         continuar=str(input('¿Faltan notas por ingresar?S/N: ')).upper()
 
     if acum_porcentaje== 100 or continuar=='N':
-        if nota_acum>=3:
+        if nota_acum>=3: # esta es la condicion para determinar si aprobo o no 
             print(f'El estudiante {nombre} cursó la materia {materia} y obtuvo {nota_acum} resultado en aprobado')
         elif nota_acum<3:
             print(f'El estudiante {nombre} cursó la materia {materia} y obtuvo {nota_acum} resultado en reprobado')
