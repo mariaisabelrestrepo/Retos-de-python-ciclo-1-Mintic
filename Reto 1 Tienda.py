@@ -1,7 +1,7 @@
 mas_productos='S'
 subtotal=0
 print('TIENDA LAS MERCEDES\n')
-while mas_productos=='S':
+while mas_productos=='S':# ciclo para controlar el ejercicio 
     valorunitario= int(input('Ingrese el valor unitario: '))
     iva= str(input('¿El producto cuenta con IVA?S/N: ')).upper()
     cantidad= int(input('Ingrese la cantidad que lleva el cliente del producto a registrar: '))
